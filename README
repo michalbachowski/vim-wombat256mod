@@ -1,0 +1,17 @@
+This is a version of Wombat256mod vim theme (http://www.vim.org/scripts/script.php?script_id=2465) packaged to work with Tim Pope's pathogen plugin (http://www.vim.org/scripts/script.php?script_id=2332).
+
+To use it (assuming you're using pathogen):
+
+- go to your bundle directory (.vim/bundle or .vimbundles) and clone the repo:
+
+  git clone git@github.com:michalbachowski/vim-wombat256mod.git
+
+  - edit your .vimrc and add:
+
+  :colorscheme wombat-256mod
+
+Also proper TERM i needed, xterm-256color namely.
+
+    export TERM=xterm-256color
+
+Putty users can set Terminal-type string in options/Connection/Data/Terminal details.
